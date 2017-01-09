@@ -1,0 +1,17 @@
+{
+  "name": "youtube",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack -w --config webpack.config.js"
+  },
+  "author": "Uladzimir Halushka",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^3.5.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
+}

@@ -1,0 +1,104 @@
+body{
+  background-color: #343d46;
+  font-family: "Open Sans", Arial, sans-serif
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  font-size: 18px;
+  width: 50%;
+  height: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+
+main {
+  position: relative;
+}
+
+.videoUl {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  position: relative;
+  list-style: none;
+  /*overflow-x: hidden;*/
+  padding: 0;
+}
+
+li {
+min-width: 300px;
+height: 400px;
+background-color: #fff;
+position: relative;
+border-radius: 10px 10px 10px 10px;
+}
+
+.imgLink {
+  position: relative;
+}
+
+.videoImg {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.videoLink {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.videoLink > p {
+  margin: 10px 20px;
+  text-align: center;
+}
+
+.description {
+  margin: 10px 20px;
+  font-size: 14px;
+}
+
+.channelDateViews {
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #dcd2d2;
+  border-top: 1px solid #969696;
+  line-height: 0;
+  font-size: 12px;
+}
+
+.channel {
+float: left;
+width: 50%;
+box-sizing: border-box;
+text-align: center;
+line-height: 40px;
+border-right: 1px solid #969696;
+}
+
+.date {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 40px;
+}
+
+/*.views {
+
+}*/
