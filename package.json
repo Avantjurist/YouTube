@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "webpack -w --config webpack.config.js"
   },
-  "author": "Uladzimir Halushka",
+  "author": "Maxim Kozlov",
   "license": "ISC",
   "dependencies": {
     "eslint": "^3.5.0"
